@@ -1,0 +1,63 @@
+/*use the vertical bar and find a picture with photo, also pick the blue coloer for text h1 and nav links*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+h1 {
+    text-align: center;
+    border: solid #233656;
+    color: #415B77;
+}
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav li {
+    border: 3px solid #233656;
+    width: 10rem;
+    background-color: #7B9BA6;
+    text-align: center;
+    margin-bottom: 0.3rem;
+    padding: 0.2rem;
+  }
+  nav a {
+    border: 3px solid white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+    color: #415B77;
+  }
+  nav a:hover {
+    background-color:#CDD5D5;
+  }
+nav {
+    margin: 2rem 0;
+    float: left;
+    margin: 0 2rem 2rem 0;
+    border-radius: 2rem;
+}
+nav:after { 
+    content:"";
+    display: table;
+    clear: both;
+}
+article {
+  margin: 0;
+  padding: 2rem;
+  font-family: 'Dancing Script', cursive;
+}
+cite p{
+  margin: 0 4rem 2rem 0;
+  text-align: center;
+}
+.wrapper {
+    width: 96%;
+    margin: 0 auto;
+}
+  cite {
+      text-align: center;
+      font-style: italic;
+  }
